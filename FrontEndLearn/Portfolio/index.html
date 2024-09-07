@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Down Page with Active Anchor Tag</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#section1" class="nav-link">Home</a></li>
+            <li><a href="#section2" class="nav-link">About Us</a></li>
+            <li><a href="#section3" class="nav-link">Skills</a></li>
+            <li><a href="#section4" class="nav-link">Projects</a></li>
+            <li><a href="#section5" class="nav-link">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div id="section1" class="section">
+        <div id="s1-about">
+            <h3>Mastering Skills at Front End Development</h3>
+            <h1>HI, I'M<span> RAJKUMAR</span></h1>
+            <button>Download CV</button>
+        </div>
+    </div>
+    <div id="section2" class="section">
+        <div id="aboutme">
+            <p>
+                I'm a college student passionate about web development, with a focus on creating clean, user-friendly designs. I have hands-on experience with HTML, CSS, JavaScript, and enjoy working on projects that challenge my skills and creativity.<br>
+                <br>
+                This portfolio showcases some of my key projects, each reflecting my dedication to learning and growing in the tech field. Beyond coding, I draw inspiration from [mention hobbies or interests] to fuel my creativity.<br>
+                <br>
+                Thanks for visiting—I'm excited to share my work with you!
+            </p>
+        </div>
+        <div id="aboutmes2">
+            <h1 id="h1abt">ABOUT ME</h1>
+        </div>
+    </div>
+    <div id="section3" class="section">
+        <h1>MY<span> SKILLS</span></h1>
+        <div class="skillimg">
+            <img src="/img/html.png">
+            <img src="/img/css.png">
+            <img src="/img/js.png">
+            <img src="/img/react.png">
+        </div>
+        <h1>TOOLS</h1>
+        <div class="toolimg">
+            <img id="vsdimg" src="/img/vsd.png" alt="">
+            <img src="/img/github.png" alt="">
+        </div>
+    </div>
+    <div id="section4" class="section">
+        <h1>MY <span>RECENT PROJECTS</span></h1>
+        <div id="projectsec">
+            <div class="project">
+                <img src="/img/ecommercewebsite.png">
+                <h3>E-Commerce Website</h3>
+                <p>Created a Responsive E-Commerce Website Developed with<br>
+                    HTML,CSS and JS</p>
+                <a href="https://strong-tapioca-3ebbc9.netlify.app/html/">Check Live Site</a>
+            </div>
+
+            <div class="project">
+                <img src="/img/sneakerwebsite.png">
+                <h3>Sneaker Shop Website</h3>
+                <p>Created a Responsive Sneaker Shop Website Developed with<br>
+                    HTML,CSS and JS</p>
+                <a href="https://mellow-brigadeiros-1a6f0d.netlify.app/">Check Live Site</a>
+            </div>
+        </div>
+        <button>Show More</button>
+    </div>
+    <div id="section5" class="section">
+        <section class="contact">
+        <h1>Contact Me</h1>
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Email Address" id="email" class="item" autocomplete="off">
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Phone Number" id="phone" class="item" autocomplete="off">
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off">
+                </div>
+            </div>
+
+            <div class="textarea-field field">
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="txtarea" autocomplete="off"></textarea>
+            </div>
+
+            <button class="button">Send Message</button>
+        </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
