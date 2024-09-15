@@ -38,7 +38,8 @@ const ECEcomponent = () => {
       { id: 5, sub: "Engineering Graphics", credits: 4 },
       { id: 6, sub: "English for Technical Communication", credits: 2 },
       { id: 7, sub: "Problem Solving and C Programming Laboratory", credits: 1 },
-      { id: 8, sub: "Basic Science Laboratory", credits: 1 }
+      { id: 8, sub: "Basic Science Laboratory-I", credits: 1 },
+      { id: 9, sub: "Engineering Fundamental Laboratory", credits: 1 }
     ];
   
     const gradeToValue = {
@@ -72,7 +73,7 @@ const ECEcomponent = () => {
   
       if (isValid) {
         const gpa = totalPoints / totalCredits;
-        setGpa(gpa.toFixed(2));
+        setGpa(gpa.toFixed(3));
       }
     };
     
@@ -154,7 +155,7 @@ const ECEcomponent = () => {
   
       if (isValid) {
         const gpa = totalPoints / totalCredits;
-        setGpa(gpa.toFixed(2));
+        setGpa(gpa.toFixed(3));
       }
     };
     
@@ -238,7 +239,7 @@ const ECEcomponent = () => {
   
       if (isValid) {
         const gpa = totalPoints / totalCredits;
-        setGpa(gpa.toFixed(2));
+        setGpa(gpa.toFixed(3));
       }
     };
     
@@ -325,7 +326,7 @@ const ECEcomponent = () => {
   
       if (isValid) {
         const gpa = totalPoints / totalCredits;
-        setGpa(gpa.toFixed(2));
+        setGpa(gpa.toFixed(3));
       }
     };
     
